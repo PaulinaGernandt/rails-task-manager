@@ -9,12 +9,13 @@
      <tr>
        <td><%= task.title %></td>
        <% if task.completed %>
-       <td><input type="checkbox" checked ></td>
+          <td><input type="checkbox" checked ></td>
        <% else %>
-       <td><input type="checkbox"></td>
+          <td><input type="checkbox"></td>
        <% end %>
        <td><%= link_to 'Show', task_path(task) %></td>
      </tr>
    <% end %>
  </tbody>
 </table>
+s
